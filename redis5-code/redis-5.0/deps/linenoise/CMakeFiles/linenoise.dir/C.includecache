@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/deps/linenoise/linenoise.c
+termios.h
+-
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+linenoise.h
+/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/deps/linenoise/linenoise.h
+
+/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/deps/linenoise/linenoise.h
+

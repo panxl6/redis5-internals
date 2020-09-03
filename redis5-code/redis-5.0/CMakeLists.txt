@@ -97,6 +97,7 @@ set(SRC_CLI
         )
 
 
+
 set(EXECUTABLE_OUTPUT_PATH src)
 link_directories(deps/linenoise/ deps/lua/src deps/hiredis)
 
@@ -127,4 +128,19 @@ target_link_libraries(redis-cli
         PRIVATE lua
         PRIVATE linenoise
         PRIVATE hiredis
+        )
+
+set(SRC_DEMO
+        src/test/demo.c
+        src/adlist.c
+        src/zmalloc.c
+        src/sds.c
+        )
+
+add_executable(redis-example ${SRC_DEMO})
+target_include_directories(redis-example
+        PRIVATE ${REDIS_ROOT}/deps/linenoise
+        PRIVATE ${REDIS_ROOT}/deps/hiredis
+        PRIVATE ${REDIS_ROOT}/deps/lua/src
+        PRIVATE ${REDIS_ROOT}/src/
         )

@@ -1,0 +1,96 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/adlist.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/ae.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/ae.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/ae_select.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/ae_select.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/anet.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/anet.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/aof.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/aof.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/bio.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/bio.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/bitops.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/bitops.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/blocked.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/blocked.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/childinfo.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/childinfo.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/cluster.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/cluster.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/config.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/config.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/crc16.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/crc16.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/crc64.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/crc64.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/db.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/db.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/debug.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/debug.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/defrag.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/defrag.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/dict.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/endianconv.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/endianconv.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/evict.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/evict.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/expire.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/expire.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/geo.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/geo.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/geohash.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/geohash.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/geohash_helper.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/geohash_helper.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/hyperloglog.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/hyperloglog.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/intset.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/intset.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/latency.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/latency.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/lazyfree.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/lazyfree.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/listpack.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/listpack.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/localtime.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/localtime.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/lolwut.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/lolwut.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/lolwut5.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/lolwut5.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/lzf_c.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/lzf_c.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/lzf_d.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/lzf_d.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/memtest.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/memtest.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/module.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/module.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/multi.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/multi.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/networking.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/networking.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/notify.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/notify.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/object.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/object.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/pqsort.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/pqsort.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/pubsub.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/pubsub.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/quicklist.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/quicklist.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/rand.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/rand.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/rax.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/rax.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/rdb.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/rdb.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/redis-check-aof.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/redis-check-aof.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/redis-check-rdb.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/redis-check-rdb.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/release.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/release.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/replication.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/replication.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/rio.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/rio.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/scripting.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/scripting.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sds.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/sds.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sentinel.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/sentinel.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/server.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/server.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/setproctitle.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/setproctitle.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sha1.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/sha1.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/siphash.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/siphash.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/slowlog.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/slowlog.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sort.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/sort.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sparkline.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/sparkline.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/syncio.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/syncio.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/t_hash.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/t_hash.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/t_list.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/t_list.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/t_set.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/t_set.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/t_stream.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/t_stream.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/t_string.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/t_string.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/t_zset.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/t_zset.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/util.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/util.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/ziplist.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/ziplist.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zipmap.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/zipmap.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-server.dir/src/zmalloc.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "deps/linenoise"
+  "deps/hiredis"
+  "deps/lua/src"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/deps/lua/CMakeFiles/lua.dir/DependInfo.cmake"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/deps/linenoise/CMakeFiles/linenoise.dir/DependInfo.cmake"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

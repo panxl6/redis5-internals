@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,hellotype.so -o hellotype.so CMakeFiles/hellotype.dir/hellotype.c.o 

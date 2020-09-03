@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,testmodule.so -o testmodule.so CMakeFiles/testmodule.dir/testmodule.c.o 

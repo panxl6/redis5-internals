@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/modules/hellotype.c
+../redismodule.h
+/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/redismodule.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+stdint.h
+-
+
+/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/redismodule.h
+sys/types.h
+-
+stdint.h
+-
+stdio.h
+-
+
