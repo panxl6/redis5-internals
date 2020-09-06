@@ -696,6 +696,7 @@ src/dict.o: src/dict.c.o
 
 # target to build an object file
 src/dict.c.o:
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/dict.c.o
 	$(MAKE) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/dict.c.o
 	$(MAKE) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/dict.c.o
 .PHONY : src/dict.c.o
@@ -706,6 +707,7 @@ src/dict.i: src/dict.c.i
 
 # target to preprocess a source file
 src/dict.c.i:
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/dict.c.i
 	$(MAKE) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/dict.c.i
 	$(MAKE) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/dict.c.i
 .PHONY : src/dict.c.i
@@ -716,6 +718,7 @@ src/dict.s: src/dict.c.s
 
 # target to generate assembly for a file
 src/dict.c.s:
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/dict.c.s
 	$(MAKE) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/dict.c.s
 	$(MAKE) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/dict.c.s
 .PHONY : src/dict.c.s
@@ -1815,6 +1818,7 @@ src/siphash.o: src/siphash.c.o
 
 # target to build an object file
 src/siphash.c.o:
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/siphash.c.o
 	$(MAKE) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/siphash.c.o
 	$(MAKE) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/siphash.c.o
 .PHONY : src/siphash.c.o
@@ -1825,6 +1829,7 @@ src/siphash.i: src/siphash.c.i
 
 # target to preprocess a source file
 src/siphash.c.i:
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/siphash.c.i
 	$(MAKE) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/siphash.c.i
 	$(MAKE) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/siphash.c.i
 .PHONY : src/siphash.c.i
@@ -1835,6 +1840,7 @@ src/siphash.s: src/siphash.c.s
 
 # target to generate assembly for a file
 src/siphash.c.s:
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/siphash.c.s
 	$(MAKE) -f CMakeFiles/redis-server.dir/build.make CMakeFiles/redis-server.dir/src/siphash.c.s
 	$(MAKE) -f CMakeFiles/redis-cli.dir/build.make CMakeFiles/redis-cli.dir/src/siphash.c.s
 .PHONY : src/siphash.c.s

@@ -132,15 +132,22 @@ target_link_libraries(redis-cli
 
 set(SRC_DEMO
         src/test/demo.c
-        src/adlist.c
-        src/zmalloc.c
+        src/dict.c
         src/sds.c
+        src/zmalloc.c
+        src/siphash.c
+        src/adlist.c
         )
 
+add_definitions("-Wall -g")
 add_executable(redis-example ${SRC_DEMO})
 target_include_directories(redis-example
         PRIVATE ${REDIS_ROOT}/deps/linenoise
         PRIVATE ${REDIS_ROOT}/deps/hiredis
         PRIVATE ${REDIS_ROOT}/deps/lua/src
         PRIVATE ${REDIS_ROOT}/src/
+        )
+target_link_libraries(redis-example
+        PRIVATE dl
+        PRIVATE m
         )

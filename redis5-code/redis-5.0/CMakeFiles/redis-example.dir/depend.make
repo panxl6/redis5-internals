@@ -5,12 +5,23 @@ CMakeFiles/redis-example.dir/src/adlist.c.o: src/adlist.c
 CMakeFiles/redis-example.dir/src/adlist.c.o: src/adlist.h
 CMakeFiles/redis-example.dir/src/adlist.c.o: src/zmalloc.h
 
+CMakeFiles/redis-example.dir/src/dict.c.o: src/dict.c
+CMakeFiles/redis-example.dir/src/dict.c.o: src/dict.h
+CMakeFiles/redis-example.dir/src/dict.c.o: src/fmacros.h
+CMakeFiles/redis-example.dir/src/dict.c.o: src/redisassert.h
+CMakeFiles/redis-example.dir/src/dict.c.o: src/sds.h
+CMakeFiles/redis-example.dir/src/dict.c.o: src/zmalloc.h
+
 CMakeFiles/redis-example.dir/src/sds.c.o: src/sds.c
 CMakeFiles/redis-example.dir/src/sds.c.o: src/sds.h
 CMakeFiles/redis-example.dir/src/sds.c.o: src/sdsalloc.h
 CMakeFiles/redis-example.dir/src/sds.c.o: src/testhelp.h
 CMakeFiles/redis-example.dir/src/sds.c.o: src/zmalloc.h
 
+CMakeFiles/redis-example.dir/src/siphash.c.o: src/siphash.c
+
+CMakeFiles/redis-example.dir/src/test/demo.c.o: src/adlist.h
+CMakeFiles/redis-example.dir/src/test/demo.c.o: src/dict.h
 CMakeFiles/redis-example.dir/src/test/demo.c.o: src/sds.h
 CMakeFiles/redis-example.dir/src/test/demo.c.o: src/test/demo.c
 

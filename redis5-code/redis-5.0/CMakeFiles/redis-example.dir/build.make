@@ -81,57 +81,33 @@ CMakeFiles/redis-example.dir/src/test/demo.c.o.provides: CMakeFiles/redis-exampl
 CMakeFiles/redis-example.dir/src/test/demo.c.o.provides.build: CMakeFiles/redis-example.dir/src/test/demo.c.o
 
 
-CMakeFiles/redis-example.dir/src/adlist.c.o: CMakeFiles/redis-example.dir/flags.make
-CMakeFiles/redis-example.dir/src/adlist.c.o: src/adlist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/redis-example.dir/src/adlist.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-example.dir/src/adlist.c.o   -c /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c
+CMakeFiles/redis-example.dir/src/dict.c.o: CMakeFiles/redis-example.dir/flags.make
+CMakeFiles/redis-example.dir/src/dict.c.o: src/dict.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/redis-example.dir/src/dict.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-example.dir/src/dict.c.o   -c /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.c
 
-CMakeFiles/redis-example.dir/src/adlist.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-example.dir/src/adlist.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c > CMakeFiles/redis-example.dir/src/adlist.c.i
+CMakeFiles/redis-example.dir/src/dict.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-example.dir/src/dict.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.c > CMakeFiles/redis-example.dir/src/dict.c.i
 
-CMakeFiles/redis-example.dir/src/adlist.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-example.dir/src/adlist.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c -o CMakeFiles/redis-example.dir/src/adlist.c.s
+CMakeFiles/redis-example.dir/src/dict.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-example.dir/src/dict.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.c -o CMakeFiles/redis-example.dir/src/dict.c.s
 
-CMakeFiles/redis-example.dir/src/adlist.c.o.requires:
+CMakeFiles/redis-example.dir/src/dict.c.o.requires:
 
-.PHONY : CMakeFiles/redis-example.dir/src/adlist.c.o.requires
+.PHONY : CMakeFiles/redis-example.dir/src/dict.c.o.requires
 
-CMakeFiles/redis-example.dir/src/adlist.c.o.provides: CMakeFiles/redis-example.dir/src/adlist.c.o.requires
-	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/adlist.c.o.provides.build
-.PHONY : CMakeFiles/redis-example.dir/src/adlist.c.o.provides
+CMakeFiles/redis-example.dir/src/dict.c.o.provides: CMakeFiles/redis-example.dir/src/dict.c.o.requires
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/dict.c.o.provides.build
+.PHONY : CMakeFiles/redis-example.dir/src/dict.c.o.provides
 
-CMakeFiles/redis-example.dir/src/adlist.c.o.provides.build: CMakeFiles/redis-example.dir/src/adlist.c.o
-
-
-CMakeFiles/redis-example.dir/src/zmalloc.c.o: CMakeFiles/redis-example.dir/flags.make
-CMakeFiles/redis-example.dir/src/zmalloc.c.o: src/zmalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/redis-example.dir/src/zmalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-example.dir/src/zmalloc.c.o   -c /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c
-
-CMakeFiles/redis-example.dir/src/zmalloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-example.dir/src/zmalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c > CMakeFiles/redis-example.dir/src/zmalloc.c.i
-
-CMakeFiles/redis-example.dir/src/zmalloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-example.dir/src/zmalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c -o CMakeFiles/redis-example.dir/src/zmalloc.c.s
-
-CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires:
-
-.PHONY : CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires
-
-CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides: CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires
-	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides.build
-.PHONY : CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides
-
-CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides.build: CMakeFiles/redis-example.dir/src/zmalloc.c.o
+CMakeFiles/redis-example.dir/src/dict.c.o.provides.build: CMakeFiles/redis-example.dir/src/dict.c.o
 
 
 CMakeFiles/redis-example.dir/src/sds.c.o: CMakeFiles/redis-example.dir/flags.make
 CMakeFiles/redis-example.dir/src/sds.c.o: src/sds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/redis-example.dir/src/sds.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/redis-example.dir/src/sds.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-example.dir/src/sds.c.o   -c /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sds.c
 
 CMakeFiles/redis-example.dir/src/sds.c.i: cmake_force
@@ -153,23 +129,99 @@ CMakeFiles/redis-example.dir/src/sds.c.o.provides: CMakeFiles/redis-example.dir/
 CMakeFiles/redis-example.dir/src/sds.c.o.provides.build: CMakeFiles/redis-example.dir/src/sds.c.o
 
 
+CMakeFiles/redis-example.dir/src/zmalloc.c.o: CMakeFiles/redis-example.dir/flags.make
+CMakeFiles/redis-example.dir/src/zmalloc.c.o: src/zmalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/redis-example.dir/src/zmalloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-example.dir/src/zmalloc.c.o   -c /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c
+
+CMakeFiles/redis-example.dir/src/zmalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-example.dir/src/zmalloc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c > CMakeFiles/redis-example.dir/src/zmalloc.c.i
+
+CMakeFiles/redis-example.dir/src/zmalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-example.dir/src/zmalloc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c -o CMakeFiles/redis-example.dir/src/zmalloc.c.s
+
+CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires:
+
+.PHONY : CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires
+
+CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides: CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides.build
+.PHONY : CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides
+
+CMakeFiles/redis-example.dir/src/zmalloc.c.o.provides.build: CMakeFiles/redis-example.dir/src/zmalloc.c.o
+
+
+CMakeFiles/redis-example.dir/src/siphash.c.o: CMakeFiles/redis-example.dir/flags.make
+CMakeFiles/redis-example.dir/src/siphash.c.o: src/siphash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/redis-example.dir/src/siphash.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-example.dir/src/siphash.c.o   -c /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/siphash.c
+
+CMakeFiles/redis-example.dir/src/siphash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-example.dir/src/siphash.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/siphash.c > CMakeFiles/redis-example.dir/src/siphash.c.i
+
+CMakeFiles/redis-example.dir/src/siphash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-example.dir/src/siphash.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/siphash.c -o CMakeFiles/redis-example.dir/src/siphash.c.s
+
+CMakeFiles/redis-example.dir/src/siphash.c.o.requires:
+
+.PHONY : CMakeFiles/redis-example.dir/src/siphash.c.o.requires
+
+CMakeFiles/redis-example.dir/src/siphash.c.o.provides: CMakeFiles/redis-example.dir/src/siphash.c.o.requires
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/siphash.c.o.provides.build
+.PHONY : CMakeFiles/redis-example.dir/src/siphash.c.o.provides
+
+CMakeFiles/redis-example.dir/src/siphash.c.o.provides.build: CMakeFiles/redis-example.dir/src/siphash.c.o
+
+
+CMakeFiles/redis-example.dir/src/adlist.c.o: CMakeFiles/redis-example.dir/flags.make
+CMakeFiles/redis-example.dir/src/adlist.c.o: src/adlist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/redis-example.dir/src/adlist.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/redis-example.dir/src/adlist.c.o   -c /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c
+
+CMakeFiles/redis-example.dir/src/adlist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/redis-example.dir/src/adlist.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c > CMakeFiles/redis-example.dir/src/adlist.c.i
+
+CMakeFiles/redis-example.dir/src/adlist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/redis-example.dir/src/adlist.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c -o CMakeFiles/redis-example.dir/src/adlist.c.s
+
+CMakeFiles/redis-example.dir/src/adlist.c.o.requires:
+
+.PHONY : CMakeFiles/redis-example.dir/src/adlist.c.o.requires
+
+CMakeFiles/redis-example.dir/src/adlist.c.o.provides: CMakeFiles/redis-example.dir/src/adlist.c.o.requires
+	$(MAKE) -f CMakeFiles/redis-example.dir/build.make CMakeFiles/redis-example.dir/src/adlist.c.o.provides.build
+.PHONY : CMakeFiles/redis-example.dir/src/adlist.c.o.provides
+
+CMakeFiles/redis-example.dir/src/adlist.c.o.provides.build: CMakeFiles/redis-example.dir/src/adlist.c.o
+
+
 # Object files for target redis-example
 redis__example_OBJECTS = \
 "CMakeFiles/redis-example.dir/src/test/demo.c.o" \
-"CMakeFiles/redis-example.dir/src/adlist.c.o" \
+"CMakeFiles/redis-example.dir/src/dict.c.o" \
+"CMakeFiles/redis-example.dir/src/sds.c.o" \
 "CMakeFiles/redis-example.dir/src/zmalloc.c.o" \
-"CMakeFiles/redis-example.dir/src/sds.c.o"
+"CMakeFiles/redis-example.dir/src/siphash.c.o" \
+"CMakeFiles/redis-example.dir/src/adlist.c.o"
 
 # External object files for target redis-example
 redis__example_EXTERNAL_OBJECTS =
 
 src/redis-example: CMakeFiles/redis-example.dir/src/test/demo.c.o
-src/redis-example: CMakeFiles/redis-example.dir/src/adlist.c.o
-src/redis-example: CMakeFiles/redis-example.dir/src/zmalloc.c.o
+src/redis-example: CMakeFiles/redis-example.dir/src/dict.c.o
 src/redis-example: CMakeFiles/redis-example.dir/src/sds.c.o
+src/redis-example: CMakeFiles/redis-example.dir/src/zmalloc.c.o
+src/redis-example: CMakeFiles/redis-example.dir/src/siphash.c.o
+src/redis-example: CMakeFiles/redis-example.dir/src/adlist.c.o
 src/redis-example: CMakeFiles/redis-example.dir/build.make
 src/redis-example: CMakeFiles/redis-example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable src/redis-example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable src/redis-example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/redis-example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,9 +230,11 @@ CMakeFiles/redis-example.dir/build: src/redis-example
 .PHONY : CMakeFiles/redis-example.dir/build
 
 CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/test/demo.c.o.requires
-CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/adlist.c.o.requires
-CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires
+CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/dict.c.o.requires
 CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/sds.c.o.requires
+CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/zmalloc.c.o.requires
+CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/siphash.c.o.requires
+CMakeFiles/redis-example.dir/requires: CMakeFiles/redis-example.dir/src/adlist.c.o.requires
 
 .PHONY : CMakeFiles/redis-example.dir/requires
 

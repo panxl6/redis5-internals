@@ -5,7 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-example.dir/src/adlist.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-example.dir/src/dict.c.o"
   "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sds.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-example.dir/src/sds.c.o"
+  "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/siphash.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-example.dir/src/siphash.c.o"
   "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/test/demo.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-example.dir/src/test/demo.c.o"
   "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.c" "/home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/CMakeFiles/redis-example.dir/src/zmalloc.c.o"
   )

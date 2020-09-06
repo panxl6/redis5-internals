@@ -5,13 +5,24 @@ CMakeFiles/redis-example.dir/src/adlist.c.o
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.c
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.h
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.h
+CMakeFiles/redis-example.dir/src/dict.c.o
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.c
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.h
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/fmacros.h
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/redisassert.h
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sds.h
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.h
 CMakeFiles/redis-example.dir/src/sds.c.o
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sds.c
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sds.h
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sdsalloc.h
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/testhelp.h
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/zmalloc.h
+CMakeFiles/redis-example.dir/src/siphash.c.o
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/siphash.c
 CMakeFiles/redis-example.dir/src/test/demo.c.o
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/adlist.h
+ /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/dict.h
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/sds.h
  /home/ubuntu/Projects/redis5-internals/redis5-code/redis-5.0/src/test/demo.c
 CMakeFiles/redis-example.dir/src/zmalloc.c.o

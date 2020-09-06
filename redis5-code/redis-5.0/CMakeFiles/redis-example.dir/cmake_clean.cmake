@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/redis-example.dir/src/test/demo.c.o"
-  "CMakeFiles/redis-example.dir/src/adlist.c.o"
-  "CMakeFiles/redis-example.dir/src/zmalloc.c.o"
+  "CMakeFiles/redis-example.dir/src/dict.c.o"
   "CMakeFiles/redis-example.dir/src/sds.c.o"
+  "CMakeFiles/redis-example.dir/src/zmalloc.c.o"
+  "CMakeFiles/redis-example.dir/src/siphash.c.o"
+  "CMakeFiles/redis-example.dir/src/adlist.c.o"
   "src/redis-example.pdb"
   "src/redis-example"
 )
