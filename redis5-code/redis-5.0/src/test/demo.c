@@ -75,39 +75,41 @@ LRU *createLRU(int size)
 }
 
 // 从lru缓存中查询数据
-listNode* get(LRU* lru, sds key)
+listNode* get(LRU* this, sds key)
 {
-    dictEntry *entry = dictFind(lru->cache, key);
+    dictEntry *entry = dictFind(this->cache, key);
     if (entry == NULL) {
         return NULL;
     }
-    return dictGetVal(entry);
+    // 刷新热点
+    // 如果已经存在，刷新缓存
+    // 删掉
+    listNode* node = dictGetVal(entry);
+    int value = node->value;
+    listDelNode(this->queue, node);
+    // 刷新该key成为热点
+    listAddNodeHead(this->queue, value);
+    dictAdd(this->cache, key, this->queue->head);
+    return this->queue->head;
 }
 
 // 添加数据
-void put(LRU* lru, int data)
+void put(LRU* this, sds key, int data)
 {
-    sds key = sdsfromlonglong(data);
-    listNode* ret = get(lru, key);
+    listNode* ret = get(this, key);
     // 如果不在缓存中，就添加
     if (ret == NULL) {
         // 如果缓存未满，直接添加
-        if (lru->capacity < lru->size) {
-            lru->capacity += 1;
-            listAddNodeHead(lru->queue, data);
-            dictAdd(lru->cache, key, lru->queue->head);
+        if (this->capacity < this->size) {
+            this->capacity += 1;
+            listAddNodeHead(this->queue, data);
+            dictAdd(this->cache, key, this->queue->head);
         } else {
             // 如果缓存已满，执行淘汰
-            listAddNodeHead(lru->queue, data);
-            dictAdd(lru->cache, key, lru->queue->head);
-            listDelNode(lru->queue, lru->queue->tail);
+            listAddNodeHead(this->queue, data);
+            dictAdd(this->cache, key, this->queue->head);
+            listDelNode(this->queue, this->queue->tail);
         }
-    } else {
-        // 如果已经存在，刷新缓存
-        // 删掉
-        listDelNode(lru->queue, ret);
-        // 刷新该key成为热点
-        listAddNodeHead(lru->queue, data);
     }
 }
 
@@ -121,7 +123,8 @@ int main(void)
     int testCase[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     for (int i = 0; i < caseNum; i++)
     {
-        put(lru, testCase[i]);
+        sds key = sdsfromlonglong(testCase[i]);
+        put(lru, key, testCase[i]);
     }
 
     listNode* temp = lru->queue->head;
